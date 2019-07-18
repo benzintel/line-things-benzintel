@@ -8,10 +8,10 @@ const PSDI_CHARACTERISTIC_UUID  = '26E2B12B-85F0-4F3F-9FDD-91D114270E6E';
 
 // GAME STATE
 const state = {
-    current : 5,
-    getReady : 5,
-    game : 5,
-    over : 20
+    current : 0,
+    getReady : 0,
+    game : 1,
+    over : 2
 }
 
 window.onload = () => {
