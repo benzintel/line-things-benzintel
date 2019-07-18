@@ -415,7 +415,7 @@ const pipes = {
 
 // SCORE
 const score= {
-    best : parseInt(localStorage.getItem("best")) || 0,
+    best : parseInt(localStorage.getItem("best")) || 5,
     value : 5,
     
     draw : function(){
